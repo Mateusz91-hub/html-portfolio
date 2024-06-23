@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Portfolio">
+    <meta name="keywords" content="Web application designing">
+    <meta name="author" content="Mateusz Malerek">
+    <title>Web Designing</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+        }
+        .logo-circle {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: rgb(2, 0, 36);
+            margin-right: 10px;
+            font-family: 'Poppins', sans-serif;
+            transition: transform 0.3s ease;
+        }
+        .logo-circle:hover {
+            transform: scale(1.2);
+        }
+        .nav-link {
+            transition: transform 0.3s ease;
+        }
+        .nav-link:hover {
+            transform: scale(1.1);
+        }
+        .header-text {
+            transition: transform 0.3s ease;
+        }
+        .header-text:hover {
+            transform: scale(1.1);
+        }
+        .card {
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.1);
+        }
+        .card-img-top {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .container-custom {
+            background: rgb(2, 0, 36);
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 119, 1) 35%, rgba(0, 212, 255, 1) 100%);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .navbar-custom {
+            background: rgb(2, 0, 36);
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 119, 1) 35%, rgba(0, 212, 255, 1) 100%);
+            color: white;
+        }
+    
+        footer {
+            background: rgb(2, 0, 36);
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 119, 1) 35%, rgba(0, 212, 255, 1) 100%);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer a {
+            color: #0d6efd;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <div class="logo-circle">M</div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container-fluid container-custom">
+            <h1 class="header-text">This is My Third Project!!!</h1>
+        </div>
+    </header>
+    <div class="container">
+        <h1>HealthHub – Comprehensive Healthcare Management Web Application</h1>
+        <h2>Project Overview:</h2>
+        <p>HealthHub is an all-in-one healthcare management web application designed to streamline medical operations, improve patient care, and enhance overall healthcare experiences. This project focuses on integrating modern technologies to provide a user-friendly platform for healthcare providers and patients to manage appointments, medical records, and communication efficiently.</p>
+        
+        <h2>Key Features:</h2>
+        <h3>Patient Management:</h3>
+        <ul>
+            <li><strong>Appointment Scheduling:</strong> Easy and efficient scheduling of patient appointments with automated reminders.</li>
+            <li><strong>Electronic Health Records (EHR):</strong> Secure and accessible storage of patient medical records.</li>
+            <li><strong>Patient Portal:</strong> A dedicated portal for patients to access their health information and communicate with healthcare providers.</li>
+        </ul>
+        
+        <h3>Healthcare Provider Tools:</h3>
+        <ul>
+            <li><strong>Practice Management:</strong> Tools for managing clinic operations, staff schedules, and billing.</li>
+            <li><strong>Telemedicine:</strong> Integrated telehealth capabilities for remote consultations and follow-ups.</li>
+            <li><strong>Clinical Decision Support:</strong> AI-powered tools to assist in diagnosis and treatment plans.</li>
+        </ul>
+        
+        <h3>Data Security and Compliance:</h3>
+        <ul>
+            <li><strong>HIPAA Compliance:</strong> Adherence to HIPAA regulations to ensure patient data privacy and security.</li>
+            <li><strong>Data Encryption:</strong> End-to-end encryption for secure data transmission and storage.</li>
+            <li><strong>Audit Trails:</strong> Comprehensive logging and auditing of user activities for accountability.</li>
+        </ul>
+        
+        <h3>Integration and Scalability:</h3>
+        <ul>
+            <li><strong>API Integration:</strong> Seamless integration with third-party healthcare systems and devices.</li>
+            <li><strong>Modular Architecture:</strong> Scalable and modular design to easily add new features and functionalities.</li>
+            <li><strong>Cross-Platform Compatibility:</strong> Accessible on various devices including desktops, tablets, and smartphones.</li>
+        </ul>
+        
+        <h2>Development Phases:</h2>
+        <h3>Planning and Research:</h3>
+        <ul>
+            <li>Comprehensive needs assessment and stakeholder analysis.</li>
+            <li>Development of a detailed project roadmap and timeline.</li>
+        </ul>
+        
+        <h3>Design and Prototyping:</h3>
+        <ul>
+            <li>Wireframing and prototyping using tools like Sketch and InVision.</li>
+            <li>Incorporating user feedback to refine and optimize design.</li>
+        </ul>
+        
+        <h3>Development:</h3>
+        <ul>
+            <li>Front-end development using HTML5, CSS3, and JavaScript frameworks (React, Angular).</li>
+            <li>Back-end development with Node.js, Express, and MongoDB for database management.</li>
+        </ul>
+        
+        <h3>Testing and Quality Assurance:</h3>
+        <ul>
+            <li>Rigorous testing including unit tests, integration tests, and user acceptance testing (UAT).</li>
+            <li>Continuous improvement and bug fixing based on user feedback and testing outcomes.</li>
+        </ul>
+        
+        <h3>Deployment and Maintenance:</h3>
+        <ul>
+            <li>Deployment on reliable cloud platforms like AWS or Azure.</li>
+            <li>Regular updates and maintenance to ensure optimal performance and security.</li>
+        </ul>
+        
+        <h2>Project Goals:</h2>
+        <ul>
+            <li>Enhance patient care and streamline healthcare operations.</li>
+            <li>Ensure high levels of data security and regulatory compliance.</li>
+            <li>Provide a scalable and adaptable platform for future advancements.</li>
+        </ul>
+        
+        <h2>Target Audience:</h2>
+        <p>The primary audience for HealthHub includes healthcare providers, clinics, hospitals, and patients seeking an efficient, secure, and comprehensive healthcare management solution.</p>
+        
+        <h2>Conclusion:</h2>
+        <p>HealthHub aims to revolutionize the healthcare industry by providing a robust and user-friendly platform that enhances patient care and streamlines medical operations. Through continuous innovation and a commitment to excellence, HealthHub strives to be the leading solution in healthcare management.</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Mateusz Malerek. All rights reserved.</p>
+        <p>
+            <a href="https://www.linkedin.com/in/mateusz-malerek" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/mateuszmalerek" target="_blank">GitHub</a> |
+            <a href="mailto:mateusz.malerek@example.com">Email</a>
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
